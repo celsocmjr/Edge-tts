@@ -1,8 +1,12 @@
 import asyncio
 import edge_tts
+import os
 
 async def main():
     communicate = edge_tts.Communicate("Olá, este é um teste com edge tts", "pt-BR-AntonioNeural")
     await communicate.save("saida.mp3")
+    # Auto-play the generated file
+    os.system("afplay saida.mp3")
+    
 
 asyncio.run(main())

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -8,6 +9,15 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+=======
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+>>>>>>> f9af986 (Initial commit: Edge-TTS FastAPI application)
 build/
 develop-eggs/
 dist/
@@ -19,6 +29,7 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
 wheels/
 share/python-wheels/
 *.egg-info/
@@ -205,3 +216,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temp files
+*.mp3
+*.wav
+temp/
+>>>>>>> f9af986 (Initial commit: Edge-TTS FastAPI application)

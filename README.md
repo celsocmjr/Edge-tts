@@ -102,4 +102,3 @@ source venv/bin/activate  # On Mac/Linux
 ## License
 
 [MIT License](LICENSE)
->>>>>>> 1e563ef (added readme.md)
